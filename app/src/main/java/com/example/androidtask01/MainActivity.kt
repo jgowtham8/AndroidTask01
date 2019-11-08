@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 //        val resultImg = findViewById<RelativeLayout>(R.id.backImg)
 
         val resultImg = findViewById<RelativeLayout>(R.id.backImg)
-        val resultBmp = BlurBuilder.blur(this, BitmapFactory.decodeResource(resources, R.drawable.back3))
+        val resultBmp = BlurBuilder.blur(this, BitmapFactory.decodeResource(resources, R.drawable.back4))
         resultImg.setBackgroundDrawable(BitmapDrawable(resources, resultBmp))
 
 
