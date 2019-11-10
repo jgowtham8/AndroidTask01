@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //text_view_id.text = "fghdddddddddddddddddddddddddj"
+        //text_view_id.text = "kl"
 //        val obj1 = BlurBuilder()
 //        val resultImg = findViewById<RelativeLayout>(R.id.backImg)
 

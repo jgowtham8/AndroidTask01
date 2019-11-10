@@ -46,21 +46,24 @@
         android:layout_marginTop="10dp">
 
         <ImageView
+            android:clickable="true"
             style="@style/icon"
-            android:background="@color/a"
-            android:src="@drawable/c"
+            android:background="@drawable/ripple1"
+            android:src="@drawable/in2"
             android:layout_marginEnd="10dp">
         </ImageView>
         <ImageView
+            android:clickable="true"
             style="@style/icon"
-            android:background="@color/b"
-            android:src="@drawable/c"
+            android:background="@drawable/ripple2"
+            android:src="@drawable/twi"
             android:layout_marginEnd="10dp">
         </ImageView>
         <ImageView
+            android:clickable="true"
             style="@style/icon"
-            android:background="@color/c"
-            android:src="@drawable/c">
+            android:background="@drawable/ripple3"
+            android:src="@drawable/fb1">
         </ImageView>
     </LinearLayout>
 
@@ -149,6 +152,7 @@
             android:layout_marginTop="2dp"
             />
         <TextView
+            android:clickable="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="  Sign up Now!"

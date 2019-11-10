@@ -15,7 +15,7 @@
     </style>
 
     <style name="btn">
-        <item name="android:background">#00ab99</item>
+        <item name="android:background">@drawable/ripple_effect</item>
     </style>
 
     <style name="txt">
